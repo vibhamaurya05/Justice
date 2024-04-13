@@ -1,0 +1,81 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    /* background-color: rgb(87, 40, 40); */
+}
+.container{
+    height: 340px;
+    background-color: #20201c;
+     
+}
+.navbar{
+    height: 70px;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.logo{
+    height:40px;
+    width:90px;
+    margin-left: 100px;
+    
+    /* border: 2px solid black; */
+}
+.list{    
+    height:40px;
+    width:500px;
+    margin-left: 280px;
+    color: rgb(197, 196, 196);
+    font-size: 1.2rem;
+    text-decoration: none;
+    /* border: 2px solid black; */
+    display: flex;    
+    justify-content:space-evenly; 
+    align-items: center;
+    list-style-type: none;    
+}
+.list-item:nth-child(1){
+    color: beige;
+    
+}
+.button-small{
+    width: 150px;
+    height: 35px;
+    margin-right: 50px;
+    color: rgb(172, 190, 4);
+    border: 2px solid rgb(172, 190, 4);
+    border-radius: 5px;
+    background-color: #20201c;
+    
+}
+.hero{
+    height:250px;
+    /* border: 2px solid black; */
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+}
+.hero-heading{
+    
+    height: 13rem;
+    width: 39rem;
+    /* border: 2px solid black; */
+    font-size: 68px;
+    font-family: 'Red Rose';
+}
+.text{
+    height: 10rem;
+    width: 30rem;
+    color: rgb(197, 196, 196);
+    font-size: 23px;
+}
+.imageee{
+    height: 18.6rem;
+    width: 84.3rem;
+    background-size: cover;
+    
+    
+}
